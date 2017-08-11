@@ -167,7 +167,7 @@
             
                 
 <a class="post-hover" href="/2017/08/12/我的博客/" style="height: 48.5%">
-    <div class="content is-hidden-touch full-height overflow-hidden" style="background-image: url('')">
+    <div class="content is-hidden-touch full-height overflow-hidden" style="background-image: url('/1.jpg')">
         <div class="content-bg-mask full-width full-height has-padding">
             <h3 class="title is-marginless text-shadow">
                 我的博客
@@ -178,6 +178,7 @@
             <p class="sub-title text-shadow"></p>
             <p class="is-marginless text-shadow post-content-text">
                 
+
             </p>
             <p class="date text-shadow is-marginless">2017-08-12</p>
         </div>
@@ -191,7 +192,7 @@
         
         
 <a class="post-hover" href="/2017/08/12/我的博客/" style="height: 48.5%">
-    <div class="content is-hidden-touch full-height overflow-hidden" style="background-image: url('')">
+    <div class="content is-hidden-touch full-height overflow-hidden" style="background-image: url('/1.jpg')">
         <div class="content-bg-mask full-width full-height has-padding">
             <h3 class="title is-marginless text-shadow">
                 我的博客
@@ -202,6 +203,7 @@
             <p class="sub-title text-shadow"></p>
             <p class="is-marginless text-shadow post-content-text">
                 
+
             </p>
             <p class="date text-shadow is-marginless">2017-08-12</p>
         </div>
@@ -220,6 +222,10 @@
                             <a class="post-hover" href="/2017/08/12/我的博客/">
                             <div class="columns" style="min-height: 230px;">
                                 
+                                    <div class="column is-4-desktop is-5-tablet post-avatar is-hidden-mobile"
+                                         style="margin: 10px; background-size: cover;background-image: url('/1.jpg')">
+                                    </div>
+                                
                                 <div class="column is-8-desktop post-content is-flex align-center">
                                     <div class="content">
                                         <h3>我的博客</h3>
@@ -229,6 +235,7 @@
                                         </p>
                                         <p>
                                             
+
                                         </p>
                                         <p>2017-08-12</p>
                                         <button class="button is-small">Read More</button>
@@ -425,5 +432,20 @@
 <script src="/js/search_core.js"></script>
 <script src="/js/script.js"></script>
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>

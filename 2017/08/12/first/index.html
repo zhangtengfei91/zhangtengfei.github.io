@@ -138,7 +138,7 @@
             </h1>
             
             <div class="is-flex align-center">
-                <img class="post-avatar" src="http://www.success.com/sites/default/files/main/blogposts/secretsofthemindhighlysuccessfulpeopleknowthatyoudont.jpg">
+                <img class="full-height post-avatar" src="http://www.success.com/sites/default/files/main/blogposts/secretsofthemindhighlysuccessfulpeopleknowthatyoudont.jpg">
                 <span style="padding:0 10px;"> <span class="sub-title">By</span> ztfmlt</span>
                 <span class="post-date sub-title">at: 2017-08-12</span>
             </div>
@@ -217,5 +217,20 @@
 <script src="/js/search_core.js"></script>
 <script src="/js/script.js"></script>
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
